@@ -41,6 +41,7 @@ const importData = async () => {
 };
 
 // DELETE ALL DATA FROM DB COLLECTION
+// yo use garna lai --delete flag rakhne, ie node import-dev-data.js --delete
 const deleteData = async () => {
   try {
     await Tour.deleteMany();
